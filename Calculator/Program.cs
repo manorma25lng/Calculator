@@ -9,6 +9,8 @@ namespace Calculator
             bool doAgain = true;
 
             while (doAgain)
+
+
             {
                 Console.WriteLine("\n===== Simple Calculator =====");
                 Console.WriteLine("1. Addition");
@@ -72,6 +74,7 @@ namespace Calculator
                 if (userResponse != "yes")
                 {
                     doAgain = false;
+                    
                     Console.WriteLine("Thank you for using the calculator!");
                 }
             }
